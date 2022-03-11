@@ -1,8 +1,12 @@
 # :zap: Backbone Employee Project
 
 * Tutorial project using the [Backbone.js library](https://backbonejs.org/#) together with [jQuery](https://code.jquery.com/).
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/backbone-employee-project?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/backbone-employee-project?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/backbone-employee-project?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/backbone-employee-project?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -35,18 +39,18 @@
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/employeeList.png)
+![Example screenshot](./img/list.png)
 ![Example screenshot](./img/employeeCreate.png)
 
 ## :signal_strength: Technologies
 
-* [Backbone.js library v1.4.0 from CDN](https://backbonejs.org/#)
-* [Bootstrap v3.4.0 from CDN](https://getbootstrap.com/)
-* [jQuery v3.4.1 from CDN](https://code.jquery.com/)
+* [Backbone.js library v1 from CDN](https://backbonejs.org/#)
+* [Bootstrap v5 from CDN](https://getbootstrap.com/)
+* [jQuery v3 from CDN](https://code.jquery.com/)
 
 ## :floppy_disk: Setup
 
-* runs from index.html in browser.
+* runs from `index.html` in browser.
 
 ## :computer: Code Examples
 
@@ -82,12 +86,12 @@ EmployeeManager.Views.Employee = Backbone.View.extend(
 
 ## :cool: Features
 
-* employees can be added and deleted. Code exists to add svg-13 avatars but I couldn't find a free source.
+* employees can be added and edited
 
 ## :clipboard: Status & To-Do List
 
-* Status: simple working backbone.js app.
-* To-Do: add functionality. Find free source of avatars.
+* Status: Working. Delete function not working
+* To-Do: Fix delete function. Delete button commented out
 
 ## :clap: Inspiration
 
